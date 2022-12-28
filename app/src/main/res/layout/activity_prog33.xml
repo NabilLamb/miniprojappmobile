@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prog3_3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercice 5/6 : Sit Up(x7) ."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/prog335"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="380dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercice 6/6 : Donkey Kick(x5) ."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/prog336"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back33"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminer"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="290dp"
+        android:id="@+id/next33"/>
+
+</RelativeLayout>

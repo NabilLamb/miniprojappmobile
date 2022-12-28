@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choix_programme"
+    android:background="@drawable/backround5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ABAB"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Choisissez le programme qui vous convient."
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rouge"
+            android:text="Attention : \n Pour la ressite de ce programme que vous choisirez, vous devez faire tous les exercices et le nombre
+de fois pour les repeter, et le faire trois fois par semaine comme vous le souhaitez."
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Choix 1 : \n
+Programme facile mais prends beaucoup de temps."/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Programme 1"
+            android:id="@+id/p1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Choix 2 : \n
+C'est un Programme d'effort moyen qui prend un certain temps."/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Programme 2"
+            android:id="@+id/p2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Choix 3 : \n
+C'est un programme tres avance qui demande beaucoup d'effots et peu de temps."/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Programme 3"
+            android:id="@+id/p3"/>
+    </LinearLayout>
+</RelativeLayout>
